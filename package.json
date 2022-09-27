@@ -17,7 +17,6 @@
   },
   "homepage": "https://github.com/lacgondi/js-oop-gyak-2022-09-27#readme",
   "dependencies": {
-    "bootstrap": "^5.2.1",
     "webpack": "^5.74.0"
   },
   "devDependencies": {
