@@ -5,9 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="dist/main.js"></script>
-    <title>Document</title>
+    <title>Dollar Store Spotify</title>
 </head>
 <body>
-    
+    <div class="input-group mb-3">
+        <span class="input-group-text" id="basic-addon1">@</span>
+        <input type="text" name="song" id="song">
+    </div>
+    <div class="input-group mb-3">
+        <span class="input-group-text" id="basic-addon1">@</span>
+        <input type="number" name="length" id="length" placeholder="Zene hossza perceben">
+    </div>
+    <div class="input-group mb-3">
+        <span class="input-group-text" id="basic-addon1">@</span>
+        <button id="add" value="submit">Hozzáadás a listához</button>
+    </div>
+    <div class="input-group mb-3">
+        <output id="feedback"></output>
+        <output id="sum"><span class="h1">A zeneszámok össz hossza:</span></output>
+    </div>
 </body>
 </html>
