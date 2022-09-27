@@ -21,7 +21,7 @@ class Song {
 function sum() {
   var sum = 0;
   for (let i = 0; i < songList.length; i++) {
-    sum += songList[i]._length;
+    sum += songList[i].length;
   }
   return sum;
 }
@@ -29,7 +29,7 @@ function sum() {
 function addToList() {
   var data = new Song(
     document.getElementById("song").value,
-    document.getElementById("length").value
+    parseInt(document.getElementById("length").value)
   );
   songList.push(data);
   var sPlaceHolder = sum();
@@ -47,3 +47,7 @@ function init() {
 }
 
 document.addEventListener("DOMContentLoaded", init);
+
+
+
+console.log(sum());
